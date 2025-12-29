@@ -86,3 +86,14 @@ npx cap run android
 ```
 
 7. The app will launch automatically on the emulator
+
+
+## Resources
+
+- [Ionic React documentation](https://ionicframework.com/docs/react/)
+- [Capacitor Camera plugin](https://capacitorjs.com/docs/apis/camera)
+- [Capacitor GeoLocation plugin](https://capacitorjs.com/docs/apis/geolocation)
+- [Capacitor Filesystem plugin.](https://ionicframework.com/docs/native/filesystem)
+- [Capacitor Share plugin.](https://ionicframework.com/docs/native/splash-screen)
+- [Capacitor Preferences plugin](https://ionicframework.com/docs/native/preferences)
+- [Google Maps Embed API.](https://developers.google.com/maps/documentation/embed)
