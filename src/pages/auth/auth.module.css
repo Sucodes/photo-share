@@ -1,0 +1,32 @@
+.authLogo {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.authButtons {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 16px;
+}
+
+.authBtn {
+  width: 45%;
+  margin: 10px auto;
+  height: 48px;
+  font-size: 1.1rem;
+  border-radius: 12px;
+}
+
+.authHeading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.authBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}

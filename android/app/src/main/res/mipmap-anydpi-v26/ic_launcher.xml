@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background colour behind the icon -->
+    <background android:drawable="@color/splash_background" />
+    <!-- Use our custom bitmap as the foreground -->
+    <foreground android:drawable="@drawable/app_icon" />
+</adaptive-icon>
