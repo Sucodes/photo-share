@@ -7,7 +7,6 @@ import {
   IonTitle,
   IonContent,
 } from "@ionic/react";
-import styles from "./auth.module.css";
 
 const AuthPage = () => {
   return (
@@ -18,16 +17,33 @@ const AuthPage = () => {
         }}
       >
         <IonTitle style={{ textAlign: "center", marginTop: "40px" }}>
-          <IonText className={styles.authHeading}>
+          <IonText
+            style={{ fontSize: "1.8rem", fontWeight: "bold", color: "#444" }}
+          >
             <h2>Photo Share</h2>
           </IonText>
         </IonTitle>
 
-        <IonImg src="assets/happy.png" className={styles.authLogo} />
+        <IonImg
+          src="assets/happy.png"
+          style={{ width: "400px", height: "400px", margin: "0 auto" }}
+        />
 
-        <div className={styles.authButtons}>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            padding: "0 16px",
+          }}
+        >
           <IonButton
-            className={styles.authBtn}
+            style={{
+              width: "45%",
+              margin: "10px auto",
+              height: "48px",
+              fontSize: "1.1rem",
+              borderRadius: "12px",
+            }}
             color="warning"
             fill="solid"
             routerLink="/login"
@@ -37,7 +53,13 @@ const AuthPage = () => {
           </IonButton>
 
           <IonButton
-            className={styles.authBtn}
+            style={{
+              width: "45%",
+              margin: "10px auto",
+              height: "48px",
+              fontSize: "1.1rem",
+              borderRadius: "12px",
+            }}
             color="warning"
             fill="solid"
             routerLink="/signup"

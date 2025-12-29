@@ -7,7 +7,6 @@ import {
   IonTitle,
 } from "@ionic/react";
 import { useState } from "react";
-import styles from "./auth.module.css";
 import FormInput from "../../components/formInput";
 import { useHistory } from "react-router-dom";
 import { Preferences } from "@capacitor/preferences";
@@ -44,12 +43,21 @@ const LoginPage: React.FC = () => {
         }}
       >
         <IonTitle style={{ textAlign: "center", marginTop: "40px" }}>
-          <IonText className={styles.authHeading}>
+          <IonText
+            style={{ fontSize: "1.8rem", fontWeight: "bold", color: "#444" }}
+          >
             <h3>Welcome back</h3>
           </IonText>
         </IonTitle>
 
-        <div className={styles.authBox}>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
           <FormInput
             label="Email"
             type="email"
